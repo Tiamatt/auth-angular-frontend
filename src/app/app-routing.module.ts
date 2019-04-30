@@ -17,8 +17,8 @@ const routes: Routes = [
     loadChildren: './shared/modules/feature-modules/main.module#MainModule'
   },
   {
-    path: '',
-    redirectTo: '',
+    path: '**',
+    redirectTo: '/auth/login',
     pathMatch: 'full'
   }
 ];
