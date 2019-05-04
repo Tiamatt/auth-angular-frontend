@@ -3,10 +3,10 @@
 //     "secondary": #02bceb
 // );
 $dark: rgb(48, 66, 90);
-$success: rgb(0, 154, 154);
-$light: rgb(178, 185, 195);
+$success: rgb(0, 131, 131);
+$light: rgb(208, 215, 224);
 
-$box-shadow: 0 .25rem .25rem rgba(#000, .6); // class="shadow"
+$box-shadow: 0 .25rem .25rem rgba(rgb(26, 24, 24), .6); // class="shadow"
 /*
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
