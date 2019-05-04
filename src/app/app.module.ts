@@ -7,7 +7,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // import { NgxSmartModalModule } from 'ngx-smart-modal';
 // basic custom objects
 import { AppRoutingModule } from './app-routing.module';
-import { AngularMaterialModule } from './shared/modules/angular-material.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { AppComponent } from './app.component';
     // NgxSpinnerModule,
     // NgxSmartModalModule.forRoot(),
     AppRoutingModule,
-    AngularMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
